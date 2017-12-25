@@ -1,317 +1,384 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+<html lang="ko">
 
-  
-  <title>Hexo 블로그 테스트</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo 블로그 테스트">
-<meta property="og:url" content="http://wotres.github.io/index.html">
-<meta property="og:site_name" content="Hexo 블로그 테스트">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo 블로그 테스트">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo 블로그 테스트" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Carl">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Carl&#39;s IT Tech Blog"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Carl&#39;s IT Tech Blog"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="website" />
+    
+
+    <!--Page Cover-->
+    
+
+        <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>Carl&#39;s IT Tech Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+	
 </head>
 
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo 블로그 테스트</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">wotres&#39;s blog</a>
-        </h2>
-      
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">One step Then Another</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/github">
+                            
+                                깃허브
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/machineLearning">
+                            
+                                머신러닝
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/android">
+                            
+                                안드로이드
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/wotres/wotres.github.io.git">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://wotres.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-깃이용방법" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/12/21/깃이용방법/" class="article-date">
-  <time datetime="2017-12-21T12:02:51.000Z" itemprop="datePublished">2017-12-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/21/깃이용방법/">깃이용방법</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#깃(Git) - 형상관리 툴(분산 버전 관리 시스템)</p>
-<p>##사용 이유 및 설치하고 사용하는 명령어 중심으로 기술하였다. // 이후 적힌 말은 모두 설명입니다.</p>
-<p>##사용 이유 : </p>
-<ul>
-<li>중앙 집중식 버전 관리 시스템은 서버에서 적절한 백업이 수행되지않으면 서버 소실시 자료도 모두 소실<br>but, DVCS(Distributed Version Control System)는 각각 로컬 저장소가 독립된 서버 역할을 수행</li>
-<li>중앙 집중식 시스템의 경우 트래픽 집중으로 속도 저하의 우려와 서버 장애시 작업 자체가 불가능한 단점<br>but, DVCS는 서버 장애와 무관하게 로컬 저장소에 대한 자유로운 작업이 가능</li>
-</ul>
-<p>##설치 :<br><a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a> 에 접속 후 해당 운영체제에 맞는 버젼 설치</p>
-<p>Git Bash는 리눅스/유닉스 쉘을 사용할 수 있도록해주는 프로그램</p>
-<h2 id="확인-명령어"><a href="#확인-명령어" class="headerlink" title="확인 명령어"></a>확인 명령어</h2><p>git – version : 깃 버전 보여줌(깃 설치 되었는지 확인)</p>
-<p>##깃허브에서 프로젝트 생성하는법</p>
-<ul>
-<li><a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> 접속</li>
-<li>start a project 클릭후 저장소 생성 및 Repository name 에서 저장소 이름 설정</li>
-<li>명령순서<br>깃에 사용자를 알려줌(파일이 누구의 것인지 정보를 달수있음)<br>git config –global user.name “유저이름”<br>git config –global user.email “유저 이메일”<br>git init // 현재 폴더에 git 저장소를 생성함<br>해당폴더에 파일 ex) python 파일 생성<br>git status // 해당폴더 아래 파일이 반영되었는지 상태를 알려줌<br>git add 생성파일.py // 해당 파일 추가<br>git add . // 전체 add<br>git commit -m “설명” // 깃에 반영 및 설명 부분에 변경사항에 대한 메시지 작성 가능<br>// 반영됨</li>
-</ul>
-<h2 id="깃허브에서-브랜치-생성-및-반영하는법"><a href="#깃허브에서-브랜치-생성-및-반영하는법" class="headerlink" title="깃허브에서 브랜치 생성 및 반영하는법"></a>깃허브에서 브랜치 생성 및 반영하는법</h2><ul>
-<li>명령순서<br>git branch 브랜치명 // 브랜치명 생성<br>git branch // 현재 생성된 브랜치와 활성화된 브랜치를 확인한다.<br>git checkout 원하는브랜치명 // 원하는 브랜치 명으로 활성화<br>해당폴더에 파일 ex) python 파일 생성<br>git add -A // 깃에 모든 파일 반영<br>git commit -m “설명” // 반영된 파일 설명 및 깃 반영<br>git push origin 브랜치명 // 브랜치에서 반영된 정보를 깃에 반영한다.<br>깃허브 홈페이지에서 해당 브랜치명으로파일 올라온것 확인후 Compare &amp; pull request 버튼 클릭<br>깃 머지 실행<br>git checkout master // master로 이동<br>git pull // pull 명령어로 로컬저장소를 원격 저장소와 같게 만든다. 기준은 원격저장소<br>위 pull에서 조심해야하는게 작업해놓은게 있는데 커밋하지않고 마스터로 이동한뒤 pull 땡기면 파일 사라짐<br>git merge 브랜치명 // 병합작업 수행<br>이부분에서 오류 잘남 why? 서로 다른 깃내려받은뒤 작업 및 반영 시점에 따라 다를 수 있기 때문<br>충돌날 경우 파일 수정 작업 수행<br>git status // 상태확인 후<br>git add -A // 반영<br>git push origin master // 마스터를 push 하여 원격 저장소에 업로드함\<br>git branch -d 브랜치명 // 해당 브랜치 삭제</li>
-</ul>
-<h2 id="깃허브에-있는-내용-내-로컬-저장소로-가져오는법"><a href="#깃허브에-있는-내용-내-로컬-저장소로-가져오는법" class="headerlink" title="깃허브에 있는 내용 내 로컬 저장소로 가져오는법"></a>깃허브에 있는 내용 내 로컬 저장소로 가져오는법</h2><ul>
-<li>명령순서<br>git clone 깃주소 // clone을 이용해 생성한 원격저장소를 로컬 저장소로 파일 복사<br>복사가 아니라 바로 연결해서(내파일이 있는경우) 올려야하는 경우에는<br>git remote add origin 깃주소 // 원격 저장소를 추가 , origin은 추가하는 원격저장소의 이름<br>git remote -v // 원격저장소와 연결되었는지 확인<br>git push origin -all // 원격저장소 별칭(여기선 origin) all은 oring저장소의 모든 로컬 브랜치를 푸시함<br>파일생성<br>git add 생성한파일<br>git commit -m “설명”<br>git push origin master // 원격저장소 와 마스터 브랜치 모두 push 하면 깃허브에 반영된것 확인</li>
-</ul>
-<h2 id="원격-저장소와-로컬-저장소의-버젼을-맞추는법-병합하는법"><a href="#원격-저장소와-로컬-저장소의-버젼을-맞추는법-병합하는법" class="headerlink" title="원격 저장소와 로컬 저장소의 버젼을 맞추는법(병합하는법)"></a>원격 저장소와 로컬 저장소의 버젼을 맞추는법(병합하는법)</h2><p>git pull과 git fetch 두개가 있는데 pull 명령어는 원격 저장소의 정보를 가져오면 자동으로 로컬 브랜치에 병합까지 수행<br>따라서 어떤 점이 변했는니 알아보기 힘들 수 있어 주로 fetch 사용</p>
-<ul>
-<li>명령어<br>원격저장소 로컬파일 모두 수정 // github에서 수정은 원격저장소에서 commit랑 같음<br>git commit -a -m “설명” // 로컬에서 커밋<br>git push origin master  // 로컬 브랜치의 내용을 origin 원격저장소에 push<br>여기서 오류 발생 why? 버젼 안맞추고 올려서<br>git fetch // 실시<br>git branch -a // 어떤 브랜치 있는지 모두 봄<br>git merge origin/master // 병합<br>여기서 또 오류 발생 -&gt; 충돌해결해야함<br>git diff 브랜치명 // 로컬저장소의 브랜치와 원격 브랜치 저장소 사이에 어떤 차이점이 있는지 알아봄(pull 했다면 불가)<br>로컬에서 파일 수정<br>git commit -a -m “설명”<br>git push origin master </li>
-</ul>
-<p>추가 참고사항<br>remote repository : 외부에 저장할 수 있는 저장소<br>rocal repository : 내컴퓨터에 저장된 저장소</p>
-<p>사용 총평 : 기존 svn만 사용해 볼때보다 파일의 변화를 단계별로 버젼으로 기록하여 관리하여 편리하며 앞으로 더 익숙해지면 편할듯하다.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://wotres.github.io/2017/12/21/깃이용방법/" data-id="cjbggz3jc0001lsu5mtw8z31q" class="article-share-link">Teilen</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-newthing" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/12/20/newthing/" class="article-date">
-  <time datetime="2017-12-20T13:20:32.000Z" itemprop="datePublished">2017-12-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/20/newthing/">테스트</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="테스트-버젼"><a href="#테스트-버젼" class="headerlink" title="테스트 버젼"></a>테스트 버젼</h2><ul>
-<li>1번</li>
-<li>2번</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://wotres.github.io/2017/12/20/newthing/" data-id="cjbggz3jc0002lsu5i9to7xsk" class="article-share-link">Teilen</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/12/13/hello-world/" class="article-date">
-  <time datetime="2017-12-12T23:14:48.922Z" itemprop="datePublished">2017-12-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/13/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://wotres.github.io/2017/12/13/hello-world/" data-id="cjbggz3ig0000lsu53tah9o6c" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/12/21/깃이용방법/">깃이용방법</a>
-          </li>
-        
-          <li>
-            <a href="/2017/12/20/newthing/">테스트</a>
-          </li>
-        
-          <li>
-            <a href="/2017/12/13/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 MJ<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
+    <!-- /.container -->
 </nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Carl's IT Tech Blog</h1>
+                    <hr class="small">
+                    <span class="subheading">매일 조금씩 나아가기 위한 기술 정리 블로그</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/Hexo 테마 적용방법/">
+        <h2 class="post-title">
+            Hexo 테마 설치 및 참고 정보 모음
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/Hexo 설치 방법/">
+        <h2 class="post-title">
+            Hexo 설치 방법
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/깃허브에 있는 내용 내 로컬 저장소로 가져오는법/">
+        <h2 class="post-title">
+            깃허브에 있는 내용 내 로컬 저장소로 가져오는법
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/깃허브에서 브랜치 생성 및 반영하는법/">
+        <h2 class="post-title">
+            깃허브에서 브랜치 생성 및 반영하는법
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/깃허브에서-프로젝트-생성하는법/">
+        <h2 class="post-title">
+            깃허브에서 프로젝트 생성하는법
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/병합하는법/">
+        <h2 class="post-title">
+            깃허브에 있는 내용 내 로컬 저장소로 가져오는법
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/깃허브/깃-관련정보/">
+        <h2 class="post-title">
+            깃 관련정보
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/안드로이드/안드로이드 시작/">
+        <h2 class="post-title">
+            todo 지금까지 해온 안드로이드 관련 정보 정리할것
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2017/12/25/머신러닝/머신러닝 시작/">
+        <h2 class="post-title">
+            todo 지금까지 해온 머신러닝 관련 정보 정리할것
+        </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2017-12-25
+    </p>
+</div>
+<hr>
+            
+
+            <ul class="pager">
     
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
+    
+</ul>
+        </div>
+    </div>
+</div>
 
 
 
-  </div>
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/wotres/wotres.github.io.git" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2017 Carl<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
 </body>
+
 </html>
